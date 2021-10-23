@@ -30,19 +30,22 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("./images/pattern-background-mobile.svg");
+  background-image: url("./images/pattern-background-desktop.svg");
   background-repeat: no-repeat;
-  background-size: cover;
-  /* background-position: center; */
+  background-color: #e0e8ff;
+  /* background-size: cover;
+  background-position: top; */
 }
 
 .container {
   max-width: 338px;
   height: 523px;
+  /* width: 90%;
+  height: 90%; */
   background-color: hsl(0, 0%, 100%);
   /* background-color: hsl(108, 35%, 52%); */
   border-radius: 10px;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 main {
@@ -55,6 +58,8 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .center-txt {
@@ -74,6 +79,7 @@ main {
   border-radius: 10px;
   background-color: hsl(225, 100%, 94%);
 }
+
 .price-section a {
   color: hsl(245, 75%, 52%);
   font-weight: bold;
@@ -98,13 +104,12 @@ main {
   box-shadow: 2px 4px 6px 3px rgb(0 0 0 / 25%) !important;
 }
 
-.btn-blue:hover{
+.btn-blue:hover {
   background-color: #4940a8;
   cursor: pointer;
-  
 }
 a:hover {
-  color: #4940a8;;
+  color: #4940a8;
   text-decoration: none;
   cursor: pointer;
 }
@@ -122,3 +127,4 @@ a:hover {
 .btn-margin {
   margin-top: 10px;
 }
+sl
